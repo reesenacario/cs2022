@@ -1,0 +1,73 @@
+b = "Hello, Reese!"
+print(b[-5:-2])
+
+Result:- ees
+
+Python - Modify Strings
+- The `upper()` method returns the string in upper case:
+- The lower() method returns the string in lower case
+``` python
+
+"Hello, Reese!"
+print(b.upper())
+
+Result: HELLO, REESE!
+
+
+ Remove Whitespace with `strip()` method
+- The strip() method removes any whitespace from the beginning or the end
+``` python
+
+b = " Hello, Reese! "
+print(b.strip())
+
+Result: Hello, Reese!
+
+- The `replace()`method replaces a string with another string
+- `seperator`
+``` python
+b = " Hello, Reese! "
+print(b.replace("o", "w"))
+
+Result: Hellw, Reese
+
+```python
+b = " Hello, Reese! "
+print(b.split("R"))
+
+Result:[' Hello, ', 'eese! ']
+
+
+- String Concatenation:To concatenate, or combine, two strings you can use the `+` operator.
+```python
+a = "Hello"
+b = " , "
+c = "Reese
+d = a + b + c
+print(d)
+
+
+ Python - Format - Strings
+```python
+age = 19
+txt = "My name is Reese, and I am {}"
+print(txt.format(age))
+
+Result:My name is Reese, and I am 19
+
+```python
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {2} pieces of item {0} for {1} dollars."
+print(myorder.format(quantity, itemno, price))
+
+Result:I want 49.95 pieces of item 3 for 567 dollars.
+
+```python
+txt = "hello, and welcome to my world."
+
+x = txt.capitalize()
+
+print (x)
+```
